@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', arial;
+}
+
+.header{
+    background-color: #040d1a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.header-logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+.first-section{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+img {
+    margin: 75px;
+    width: 500px;
+    height: 300px; 
+}
+
+.section-one-words {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    background-color: #040d1a;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+    height: 330px;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 120px;
+    height: 120px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one, .two, .three, .four{
+    margin-top: 200px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote-credit{
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section4{
+    padding: 88px 177px;
+}
+
+.call-action{
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+}
+
+.call-action-button{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
